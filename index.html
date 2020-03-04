@@ -1,764 +1,853 @@
 <!DOCTYPE html>
 <html lang="zxx">
+
 <head>
 
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-142048848-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-142048848-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'UA-142048848-1');
-</script>
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
 
-<!-- Facebook Pixel Code -->
-<script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '2002938793348008');
-  fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-  src="https://www.facebook.com/tr?id=2002938793348008&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Facebook Pixel Code -->
+		gtag('config', 'UA-142048848-1');
+	</script>
+
+	<!-- Facebook Pixel Code -->
+	<script>
+		! function (f, b, e, v, n, t, s) {
+			if (f.fbq) return;
+			n = f.fbq = function () {
+				n.callMethod ?
+					n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+			};
+			if (!f._fbq) f._fbq = n;
+			n.push = n;
+			n.loaded = !0;
+			n.version = '2.0';
+			n.queue = [];
+			t = b.createElement(e);
+			t.async = !0;
+			t.src = v;
+			s = b.getElementsByTagName(e)[0];
+			s.parentNode.insertBefore(t, s)
+		}(window, document, 'script',
+			'https://connect.facebook.net/en_US/fbevents.js');
+		fbq('init', '2002938793348008');
+		fbq('track', 'PageView');
+	</script>
+	<noscript><img height="1" width="1" style="display:none"
+			src="https://www.facebook.com/tr?id=2002938793348008&ev=PageView&noscript=1" /></noscript>
+	<!-- End Facebook Pixel Code -->
 
 	<title>CAVENBRA: Cámara Venezolana-Brasileña en Caracas</title>
 	<meta charset="UTF-8">
-	<link rel="shortcut icon" href="img/logos/logo-shortcut.png" />	
+	<link rel="shortcut icon" href="img/logos/logo-shortcut.png" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 	<!-- Bootstrap CSS-->
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	
+
 	<!-- Font-Awesome -->
-	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">  
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
 
 	<!-- Icomoon -->
-	<link rel="stylesheet" type="text/css" href="css/icomoon.css"> 
+	<link rel="stylesheet" type="text/css" href="css/icomoon.css">
 
 	<!-- Pogo Slider -->
 	<link rel="stylesheet" href="css/pogo-slider.min.css">
-	<link rel="stylesheet" href="css/slider.css">	
-	
+	<link rel="stylesheet" href="css/slider.css">
+
 	<!-- Animate.css -->
-	<link rel="stylesheet" href="css/animate.css">	
+	<link rel="stylesheet" href="css/animate.css">
 
 	<!-- Owl Carousel  -->
-    <link rel="stylesheet" href="css/owl.carousel.css">
-	
+	<link rel="stylesheet" href="css/owl.carousel.css">
+
 	<!-- Main Styles -->
 	<link rel="stylesheet" type="text/css" href="css/default.css">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 
 	<!-- Fonts Google -->
-	<link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,600,700,800,900&amp;subset=latin-ext,vietnamese" rel="stylesheet">
+	<link
+		href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,600,700,800,900&amp;subset=latin-ext,vietnamese"
+		rel="stylesheet">
 
 </head>
+
 <body>
 
 
 
 
-<!-- Preloader Start-->
-<div id="preloader">
-	<div class="row loader">
-		<div class="loader-icon"></div>
-	</div>
-</div>
-<!-- Preloader End -->
-
-
-
-<!-- Top-Bar START -->
-<div id="top-bar" class="hidden-xs">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-9 col-xs-12">
-				<ul class="top-bar-info">				 
-					<li><i class="fa fa-clock-o"></i>Horario de atención: Lunes a Viernes : 12:00pm-4:00pm</li>
-					<li><i class="fa fa-phone"></i> Teléfono:  +58-212-7932355</li>
-					<li><i class="fa fa-envelope-o"></i>Email:  contacto@cavenbra.com</li>
-				</ul>					
-			</div>
-			<div class="col-md-3 col-sm-3 col-xs-12 right-holder hidden-sm">
-				<a href="requisitos-afiliacion.html" class="top-appoinment">Afiliarse</a>							
-			</div>		
+	<!-- Preloader Start-->
+	<div id="preloader">
+		<div class="row loader">
+			<div class="loader-icon"></div>
 		</div>
 	</div>
-</div>	
-<!-- Top-Bar END -->
+	<!-- Preloader End -->
 
 
 
-<!-- Navbar START -->
-<header>
-	<nav class="navbar navbar-default navbar-custom" data-spy="affix" data-offset-top="50">
-	  <div class="container">
-	  	<div class="row">
-		    <div class="navbar-header navbar-header-custom">
-		      <button type="button" class="navbar-toggle collapsed menu-icon" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		      </button>
-		      <a class="navbar-logo" href="index.html"><img src="img/logos/logo.png" alt="logo"></a>
-		    </div>
-
-		    <!-- Collect the nav links, forms, and other content for toggling -->
-		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-		      <ul class="nav navbar-nav navbar-right navbar-links-custom">
-		        <li class="active-link"><a href="index.html">Inicio</a></li>
-		        <li><a href="quienes-somos.html">¿Quiénes somos?</a></li>
-		        <li class="dropdown">
-		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Afiliados</a>
-		          <ul class="dropdown-menu dropdown-menu-left">
-		            <li><a href="beneficios-afiliacion.html">Beneficios del afiliado</a></li>
-		            <li><a href="requisitos-afiliacion.html">Requisitos de afiliación</a></li>
-		            <li><a href="https://fernandoportela1.typeform.com/to/QEdOxY">Formulario de afiliación</a></li>
-
-		          </ul>
-		        </li>	
-		        <li class="dropdown">
-		          <a href="acuerdos-convenios.html"  aria-expanded="false">A&C</a>
-		      
-						</li>			        
-						<li class="dropdown">
-								<a href="talleres-eventos.html"  aria-expanded="false">Talleres y Eventos</a>
-						
-							</li>			  			
-		        <li class="dropdown">
-		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog</a>
-		          <ul class="dropdown-menu dropdown-menu-left">
-		            <li><a href="https://medium.com/noticamara">Medium: Noticámara</a></li>
-	
-		          </ul>
-		        </li>
-		   
-		        <li><a href="contacto.html">Contacto</a></li>
-		      </ul>
-		    </div>	
-	  	</div>
-	  </div>
-	</nav>	
-</header>
-<!-- Navbar END -->
-
-
-
-<!-- Slider START -->
-<div class="pogoSlider" id="js-main-slider">
-
-	<div class="pogoSlider-slide" data-transition="fade" data-duration="1000" style="background-image:url(./img/puenteorinokia.jpg);">
+	<!-- Top-Bar START -->
+	<div id="top-bar" class="hidden-xs">
 		<div class="container">
-			<div class="slider-content">
-				<div class="row">
-					<div class="col-md-8 col-sm-12 col-xs-12">
-						<h2 class="pogoSlider-slide-element" data-in="slideDown" data-out="slideUp" data-duration="750" data-delay="500">Cámara Venezolana-Brasileña</h2>	
-						<p class="pogoSlider-slide-element hidde" data-in="slideRight" data-out="slideUp" data-duration="750" data-delay="900">Somos una Asociación Civil sin fines de lucro, que durante sus más de 30 años de trayectoria, ha estimulado e impulsado el intercambio de bienes y servicios entre Venezuela y Brasil. Alianzas Estratégicas y posicionamiento de mercado Venezolano - Brasileño. Estamos ubicados en Caracas, Venezuela. Además hay cámaras binacionales en todo el territorio Brasileño.</p>
-						<a href="quienes-somos.html" class="button-lg button-primary mt-30 pogoSlider-slide-element"  data-in="slideRight" data-out="slideDown" data-duration="1150" data-delay="500">Sobre nosotros</a>		
-					</div>
+			<div class="row">
+				<div class="col-md-9 col-xs-12">
+					<ul class="top-bar-info">
+						<li><i class="fa fa-clock-o"></i>Horario de atención: Lunes a Viernes : 12:00pm-4:00pm</li>
+						<li><i class="fa fa-phone"></i> Teléfono: +58-212-7932355</li>
+						<li><i class="fa fa-envelope-o"></i>Email: contacto@cavenbra.com</li>
+					</ul>
+				</div>
+				<div class="col-md-3 col-sm-3 col-xs-12 right-holder hidden-sm">
+					<a href="requisitos-afiliacion.html" class="top-appoinment">Afiliarse</a>
 				</div>
 			</div>
-		</div>		
+		</div>
 	</div>
+	<!-- Top-Bar END -->
 
-	<div class="pogoSlider-slide" data-transition="fade" data-duration="1000" style="background-image:url(./img/brasilera.jpg);">
-		<div class="container">
-			<div class="slider-content">
+
+
+	<!-- Navbar START -->
+	<header>
+		<nav class="navbar navbar-default navbar-custom" data-spy="affix" data-offset-top="50">
+			<div class="container">
 				<div class="row">
-					<div class="col-md-8 col-sm-12 col-xs-12">
-						<h2 class="pogoSlider-slide-element pogoSlider-animation-slideDownIn" data-in="slideDown" data-out="slideUp" data-duration="750" data-delay="500" style="opacity: 1; animation-duration: 750ms;">Instituto Cultural Brasil-Venezuela</h2>						<p class="pogoSlider-slide-element pogoSlider-animation-slideRightIn" data-in="slideRight" data-out="slideUp" data-duration="750" data-delay="900" style="opacity: 1;font-weight: 500;color:#fff;animation-duration: 750ms;">El Instituto Cultural Brasil Venezuela (ICBV) está dirigido a promover  la integración espiritual entre los pueblos de estas dos naciones, mediante el conocimiento y la enseñanza de sus respectivas lenguas.</p>						<a href="https://www.icbv.org.ve/" class="button-lg button-primary mt-30 pogoSlider-slide-element"  data-in="slideRight" data-out="slideDown" data-duration="1150" data-delay="500">Ir a la página web</a>		
+					<div class="navbar-header navbar-header-custom">
+						<button type="button" class="navbar-toggle collapsed menu-icon" data-toggle="collapse"
+							data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-logo" href="index.html"><img src="img/logos/logo.png" alt="logo"></a>
+					</div>
+
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav navbar-right navbar-links-custom">
+							<li class="active-link"><a href="index.html">Inicio</a></li>
+							<li><a href="quienes-somos.html">¿Quiénes somos?</a></li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+									aria-expanded="false">Afiliados</a>
+								<ul class="dropdown-menu dropdown-menu-left">
+									<li><a href="beneficios-afiliacion.html">Beneficios del afiliado</a></li>
+									<li><a href="requisitos-afiliacion.html">Requisitos de afiliación</a></li>
+									<li><a href="https://fernandoportela1.typeform.com/to/QEdOxY">Formulario de
+											afiliación</a></li>
+
+								</ul>
+							</li>
+							<li class="dropdown">
+								<a href="acuerdos-convenios.html" aria-expanded="false">A&C</a>
+
+							</li>
+							<li class="dropdown">
+								<a href="talleres-eventos.html" aria-expanded="false">Talleres y Eventos</a>
+
+							</li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+									aria-expanded="false">Blog</a>
+								<ul class="dropdown-menu dropdown-menu-left">
+									<li><a href="https://medium.com/noticamara">Medium: Noticámara</a></li>
+
+								</ul>
+							</li>
+
+							<li><a href="contacto.html">Contacto</a></li>
+						</ul>
 					</div>
 				</div>
 			</div>
-		</div>		
+		</nav>
+	</header>
+	<!-- Navbar END -->
+
+
+
+	<!-- Slider START -->
+	<div class="pogoSlider" id="js-main-slider">
+
+		<div class="pogoSlider-slide" data-transition="fade" data-duration="1000"
+			style="background-image:url(./img/puenteorinokia.jpg);">
+			<div class="container">
+				<div class="slider-content">
+					<div class="row">
+						<div class="col-md-8 col-sm-12 col-xs-12">
+							<h2 class="pogoSlider-slide-element" data-in="slideDown" data-out="slideUp"
+								data-duration="750" data-delay="500">Cámara Venezolana-Brasileña</h2>
+							<p class="pogoSlider-slide-element hidde" data-in="slideRight" data-out="slideUp"
+								data-duration="750" data-delay="900">Somos una Asociación Civil sin fines de lucro, que
+								durante sus más de 30 años de trayectoria, ha estimulado e impulsado el intercambio de
+								bienes y servicios entre Venezuela y Brasil. Alianzas Estratégicas y posicionamiento de
+								mercado Venezolano - Brasileño. Estamos ubicados en Caracas, Venezuela. Además hay
+								cámaras binacionales en todo el territorio Brasileño.</p>
+							<a href="quienes-somos.html" class="button-lg button-primary mt-30 pogoSlider-slide-element"
+								data-in="slideRight" data-out="slideDown" data-duration="1150" data-delay="500">Sobre
+								nosotros</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="pogoSlider-slide" data-transition="fade" data-duration="1000"
+			style="background-image:url(./img/brasilera.jpg);">
+			<div class="container">
+				<div class="slider-content">
+					<div class="row">
+						<div class="col-md-8 col-sm-12 col-xs-12">
+							<h2 class="pogoSlider-slide-element pogoSlider-animation-slideDownIn" data-in="slideDown"
+								data-out="slideUp" data-duration="750" data-delay="500"
+								style="opacity: 1; animation-duration: 750ms;">Instituto Cultural Brasil-Venezuela</h2>
+							<p class="pogoSlider-slide-element pogoSlider-animation-slideRightIn" data-in="slideRight"
+								data-out="slideUp" data-duration="750" data-delay="900"
+								style="opacity: 1;font-weight: 500;color:#fff;animation-duration: 750ms;">El Instituto
+								Cultural Brasil Venezuela (ICBV) está dirigido a promover la integración espiritual
+								entre los pueblos de estas dos naciones, mediante el conocimiento y la enseñanza de sus
+								respectivas lenguas.</p> <a href="https://www.icbv.org.ve/"
+								class="button-lg button-primary mt-30 pogoSlider-slide-element" data-in="slideRight"
+								data-out="slideDown" data-duration="1150" data-delay="500">Ir a la página web</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="pogoSlider-slide" data-transition="fade" data-duration="1000"
+			style="background-image:url(./img/ibge.jpg);">
+			<div class="container">
+				<div class="slider-content">
+					<div class="row">
+						<div class="col-md-8 col-sm-12 col-xs-12">
+							<h2 class="pogoSlider-slide-element" data-in="slideDown" data-out="slideUp"
+								data-duration="750" data-delay="500"> Portal estadístico de IBGE</h2>
+							<p class="pogoSlider-slide-element" data-in="slideRight" data-out="slideUp"
+								data-duration="750" data-delay="900">La información y la data veraz de Brasil en sus
+								manos. El Instituto Brasileño de Geografía y Estadística, más conocido por su sigla
+								IBGE, es un organismo público de administración federal brasileña creado en 1934 e
+								instalado en 1936 bajo el nombre de Instituto Nacional de Estadística</p>
+							<a href="https://www.ibge.gov.br/"
+								class="button-lg button-primary mt-30 pogoSlider-slide-element" data-in="slideRight"
+								data-out="slideDown" data-duration="1150" data-delay="500">Ir a la página web</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
 	</div>
+	<!-- Slider END -->
 
-	<div class="pogoSlider-slide" data-transition="fade" data-duration="1000" style="background-image:url(./img/ibge.jpg);">
+
+
+	<!-- Top Articles START -->
+	<div class="section-block">
 		<div class="container">
-			<div class="slider-content">
-				<div class="row">
-					<div class="col-md-8 col-sm-12 col-xs-12">
-						<h2 class="pogoSlider-slide-element" data-in="slideDown" data-out="slideUp" data-duration="750" data-delay="500"> Portal estadístico de IBGE</h2>	
-						<p class="pogoSlider-slide-element" data-in="slideRight" data-out="slideUp" data-duration="750" data-delay="900">La información y la data veraz de Brasil en sus manos. El Instituto Brasileño de Geografía y Estadística, más conocido por su sigla IBGE, es un organismo público de administración federal brasileña creado en 1934 e instalado en 1936 bajo el nombre de Instituto Nacional de Estadística</p>
-						<a href="https://www.ibge.gov.br/" class="button-lg button-primary mt-30 pogoSlider-slide-element"  data-in="slideRight" data-out="slideDown" data-duration="1150" data-delay="500">Ir a la página web</a>		
-					</div>
-				</div>
+			<div class="section-heading center-holder">
+				<h2>Conviértete en afiliad@ de la cámara </h2>
+				<p>Ofrecemos un conjunto de beneficios de alto valor, destinados a apoyar la gestión empresarial e
+					intereses económicos y comerciales, a través de actividades que favorecen el ambiente de negocios y
+					optimizan el desarrollo de las empresas.</p>
 			</div>
-		</div>		
-	</div>	
+			<div class="owl-carousel owl-theme" id="articles-services">
+				<article class="service-article clearfix">
+					<div class="article-icon">
+						<i class="icon-file"></i>
+					</div>
+					<div class="article-text">
+						<h3>Estadisticas</h3>
+						<p>Se envían informes periodicos con información y estadisticas relevante a nuestros afiliados.
+						</p>
 
-</div>
-<!-- Slider END -->
+					</div>
+				</article>
 
+				<article class="service-article clearfix">
+					<div class="article-icon">
+						<i class="icon-price-ticket"></i>
+					</div>
+					<div class="article-text">
+						<h3>Aranceles</h3>
+						<p>TPM y TEM. Una Tasa Preferencial MERCOSUR Y la otra Tasa Externa MERCOSUR.</p>
 
+					</div>
+				</article>
 
-<!-- Top Articles START -->
-<div class="section-block">
-	<div class="container">
-		<div class="section-heading center-holder">
-			<h2>Conviértete en afiliad@ de la cámara </h2>
-			<p>Ofrecemos un conjunto de  beneficios de alto valor, destinados a apoyar la gestión empresarial e intereses económicos y comerciales, a través de actividades que favorecen el ambiente de negocios y optimizan el desarrollo de las empresas.</p>
-		</div>		
-        <div class="owl-carousel owl-theme" id="articles-services">
-			<article class="service-article clearfix">
-				<div class="article-icon">
-					<i class="icon-file"></i>
-				</div>
-				<div class="article-text">
-					<h3>Estadisticas</h3>
-					<p>Se envían informes periodicos con información y estadisticas relevante a nuestros afiliados.</p>
-		
-				</div>					
-			</article>	
+				<article class="service-article clearfix">
+					<div class="article-icon">
+						<i class="icon-file"></i>
+					</div>
+					<div class="article-text">
+						<h3>Aspectos Tributarios</h3>
+						<p>II (impuesto de importaciones), IPI (impuesto produtos industrializados), ICMS (impuesto de
+							Circulación de Mercancías e Servicios), Otros Impuestos.</p>
 
-			<article class="service-article clearfix">
-				<div class="article-icon">
-					<i class="icon-price-ticket"></i>
-				</div>
-				<div class="article-text">
-					<h3>Aranceles</h3>
-					<p>TPM y TEM. Una Tasa Preferencial MERCOSUR Y la otra Tasa Externa MERCOSUR.</p>
-			
-				</div>					
-			</article>	
+					</div>
+				</article>
 
-			<article class="service-article clearfix">
-				<div class="article-icon">
-					<i class="icon-file"></i>
-				</div>
-				<div class="article-text">
-					<h3>Aspectos Tributarios</h3>
-					<p>II (impuesto de importaciones), IPI (impuesto produtos industrializados), ICMS (impuesto de Circulación de Mercancías e Servicios), Otros Impuestos.</p>
-	
-				</div>					
-			</article>
+				<article class="service-article clearfix">
+					<div class="article-icon">
+						<i class="icon-trade"></i>
+					</div>
+					<div class="article-text">
+						<h3>Exportadores e Importadores</h3>
+						<p>Identificación de importadores y exportadores de Venezuela y Brasil, perfiles de mercado,
+							posicionamiento de mercado y participación en Showrooms en Brasil.</p>
 
-			<article class="service-article clearfix">
-				<div class="article-icon">
-					<i class="icon-trade"></i>
-				</div>
-				<div class="article-text">
-					<h3>Exportadores e Importadores</h3>
-					<p>Identificación de importadores y exportadores de Venezuela y Brasil, perfiles de mercado, posicionamiento de mercado y participación en Showrooms en Brasil.</p>
-			
-				</div>					
-			</article>
+					</div>
+				</article>
 
-			<article class="service-article clearfix">
-				<div class="article-icon">
-					<i class="icon-thinking-head"></i>
-				</div>
-				<div class="article-text">
-					<h3>Logística y transporte</h3>
-					<p>Transporte Multimodal, Transporte de carga terrestre y transporte Marítimo y zonas especiales de exportación e importación, showrooms digitales y físicos.</p>
+				<article class="service-article clearfix">
+					<div class="article-icon">
+						<i class="icon-thinking-head"></i>
+					</div>
+					<div class="article-text">
+						<h3>Logística y transporte</h3>
+						<p>Transporte Multimodal, Transporte de carga terrestre y transporte Marítimo y zonas especiales
+							de exportación e importación, showrooms digitales y físicos.</p>
 
-				</div>					
-			</article>
+					</div>
+				</article>
 
-			<article class="service-article clearfix">
-				<div class="article-icon">
-					<i class="icon-credit-card"></i>
-				</div>
-				<div class="article-text">
-					<h3>Inversiones bilaterales</h3>
-					<p>Posicionarse su empresa en Brasil, aspectos jurídicos y legales como persona natural y jurídica, posibilidad de alianzas estratégicas y joint ventures.</p>
-
-				</div>					
-			</article>	
-			<article class="service-article clearfix">
+				<article class="service-article clearfix">
 					<div class="article-icon">
 						<i class="icon-credit-card"></i>
 					</div>
 					<div class="article-text">
-						<h3>Modalidades de pago y cobranzas	</h3>
-						<p>Operaciones ALADI, operaciones de compensación de cámaras de bancos centrales, financiamientos y pagos tradicionales e internacionales. Praxis de comercio.</p>
+						<h3>Inversiones bilaterales</h3>
+						<p>Posicionarse su empresa en Brasil, aspectos jurídicos y legales como persona natural y
+							jurídica, posibilidad de alianzas estratégicas y joint ventures.</p>
 
-					</div>					
-				</article>			           			            			            			            
-        </div>
+					</div>
+				</article>
+				<article class="service-article clearfix">
+					<div class="article-icon">
+						<i class="icon-credit-card"></i>
+					</div>
+					<div class="article-text">
+						<h3>Modalidades de pago y cobranzas </h3>
+						<p>Operaciones ALADI, operaciones de compensación de cámaras de bancos centrales,
+							financiamientos y pagos tradicionales e internacionales. Praxis de comercio.</p>
+
+					</div>
+				</article>
+			</div>
+		</div>
 	</div>
-</div>
-<!-- Top Articles END -->
+	<!-- Top Articles END -->
 
-<!-- Portfolio START -->
-<div class="section-block-grey">
+	<!-- Portfolio START -->
+	<div class="section-block-grey">
 		<div class="container">
 			<div class="section-heading center-holder">
 				<h2>Otros servicios extras (Específicos)</h2>
-				<p>Las empresas asociadas y aliadas a la cámara prestan servicios extras	</p>
-			</div>	
-			
-	
-					<div class="row">
-					<div class="isotope-grid">
-								<div class="col-md-4 col-sm-6 col-xs-12 isotope-item business">
-									<a href="project-detail.html">
-										<div class="project-item">
-											<div class="overlay-container">
-												<img src="./img/proyectoexportacion.jpg" alt="project-img">
-												<div class="project-item-overlay">
-													<h4>Proyecto de exportación</h4>
-												</div>              
-											</div>              
-										</div>  
-									</a>        
+				<p>Las empresas asociadas y aliadas a la cámara prestan servicios extras </p>
+			</div>
+
+
+			<div class="row">
+				<div class="isotope-grid">
+					<div class="col-md-4 col-sm-6 col-xs-12 isotope-item business">
+						<a href="#>
+							<div class=" project-item">
+							<div class="overlay-container">
+								<img src="./img/proyectoexportacion.jpg" alt="project-img">
+								<div class="project-item-overlay">
+									<h4>Proyecto de exportación</h4>
 								</div>
-	
-								<div class="col-md-4 col-sm-6 col-xs-12 isotope-item business marketing">
-									<a href="project-detail.html">
-										<div class="project-item">
-											<div class="overlay-container">
-												<img src="./img/proyectoimportacion.jpg" alt="project-img">
-												<div class="project-item-overlay">
-													<h4>Proyecto de importación</h4>
-												</div>              
-											</div>              
-										</div>  
-									</a>        
-								</div>
-	
-								<div class="col-md-4 col-sm-6 col-xs-12 isotope-item marketing financical">
-									<a href="project-detail.html">
-										<div class="project-item ">
-											<div class="overlay-container">
-												<img src="./img/consultoria.jpg" alt="project-img">
-												<div class="project-item-overlay">
-													<h4>Consultoría</h4>
-												</div>              
-											</div>              
-										</div>  
-									</a>        
-								</div>
-	
-								<div class="col-md-4 col-sm-6 col-xs-12 isotope-item business financical">
-									<a href="project-detail.html">
-										<div class="project-item ">
-											<div class="overlay-container">
-												<img src="./img/agenda.jpg" alt="project-img">
-												<div class="project-item-overlay">
-													<h4>Encuentros y	<br> Agenda de Negocios</h4>
-												</div>              
-											</div>              
-										</div>  
-									</a>        
-								</div>
-							
-								<div class="col-md-4 col-sm-6 col-xs-12 isotope-item marketing">
-									<a href="project-detail.html">
-										<div class="project-item ">
-											<div class="overlay-container">
-												<img src="./img/mercado.jpg" alt="project-img">
-												<div class="project-item-overlay">
-													<h4>Perfiles de Mercado</h4>
-		
-												</div>              
-											</div>              
-										</div>  
-									</a>        
-								</div>
-								
-								<div class="col-md-4 col-sm-6 col-xs-12 isotope-item financical business">
-									<a href="project-detail.html">
-										<div class="project-item ">
-											<div class="overlay-container">
-												<img src="https://via.placeholder.com/360x240" alt="project-img">
-												<div class="project-item-overlay">
-													<h4>Montajes de Empresas</h4>
-					
-												</div>              
-											</div>              
-										</div>  
-									</a>        
-								</div>	
+							</div>
 					</div>
-				</div>   
-			</div> 	
-		</div>		
+					</a>
+				</div>
+
+				<div class="col-md-4 col-sm-6 col-xs-12 isotope-item business marketing">
+					<a href="#">
+						<div class="project-item">
+							<div class="overlay-container">
+								<img src="./img/proyectoimportacion.jpg" alt="project-img">
+								<div class="project-item-overlay">
+									<h4>Proyecto de importación</h4>
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+
+				<div class="col-md-4 col-sm-6 col-xs-12 isotope-item marketing financical">
+					<a href="#">
+						<div class="project-item ">
+							<div class="overlay-container">
+								<img src="./img/consultoria.jpg" alt="project-img">
+								<div class="project-item-overlay">
+									<h4>Consultoría</h4>
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+
+				<div class="col-md-4 col-sm-6 col-xs-12 isotope-item business financical">
+					<a href="#">
+						<div class="project-item ">
+							<div class="overlay-container">
+								<img src="./img/agenda.jpg" alt="project-img">
+								<div class="project-item-overlay">
+									<h4>Encuentros y <br> Agenda de Negocios</h4>
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+
+				<div class="col-md-4 col-sm-6 col-xs-12 isotope-item marketing">
+					<a href="#">
+						<div class="project-item ">
+							<div class="overlay-container">
+								<img src="./img/mercado.jpg" alt="project-img">
+								<div class="project-item-overlay">
+									<h4>Perfiles de Mercado</h4>
+
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+
+				<div class="col-md-4 col-sm-6 col-xs-12 isotope-item financical business">
+					<a href="#">
+						<div class="project-item ">
+							<div class="overlay-container">
+								<img src="https://via.placeholder.com/360x240" alt="project-img">
+								<div class="project-item-overlay">
+									<h4>Montajes de Empresas</h4>
+
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
 	</div>
 	<!-- Portfolio END -->
-	
-<!-- Services START -->
-<div class="section-block-grey">
-	<div class="container">
-		<div class="section-heading center-holder">
-			<h2>Flashes con Venezuela</h2>
-		</div>	
-		<div class="row">
-			<div class="col-md-4 col-sm-4 col-xs-12">
-				<div class="service-grid">
-					<img src="./img/flash1.jpg" alt="service-image">
-					<div class="inner-padd">
-						<h4>El comercio bilateral Venezuela - Brasil alcanzó los 136 millones de dólares hasta marzo de 2019</h4>
-					</div>
-				</div>
-			</div>
 
-			<div class="col-md-4 col-sm-4 col-xs-12">
-				<div class="service-grid">
-					<img src="./img/flash2.jpg" alt="service-image">
-					<div class="inner-padd">
-						<h4>El salario mínimo se encuentra en 18.000Bs, se espera un aumento para el 01 de mayo según información extra-oficial</h4>
-		
-					</div>
-				</div>
-			</div>
-
-			<div class="col-md-4 col-sm-4 col-xs-12">
-				<div class="service-grid">
-					<img src="./img/flash3.jpg" alt="service-image">
-					<div class="inner-padd">
-						<h4>El dólar DICOM alcanzó los bolívares 4275 en la última subasta</h4>
-
-					</div>
-				</div>
-			</div>	
-			<div class="row">
-				<div class="col-md-4 col-sm-4 col-xs-12">
-					<div class="service-grid">
-						<img src="./img/flash4.jpg" alt="service-image">
-						<div class="inner-padd">
-							<h4>Entra la ayuda humanitaria por medio de la Organización Cruz roja: Medicamentos y alimentos</h4>
-		
-						</div>
-					</div>
-				</div>
-	
-</div>
-<!-- Services END -->
-
-
-
-<!-- Services START -->
-<div class="section-block-grey">
+	<!-- Services START -->
+	<div class="section-block-grey">
 		<div class="container">
 			<div class="section-heading center-holder">
-				<h2>Flashes con Brasil</h2>
-
-			</div>	
+				<h2>Flashes con Venezuela</h2>
+			</div>
 			<div class="row">
 				<div class="col-md-4 col-sm-4 col-xs-12">
 					<div class="service-grid">
-						<img src="./img/flash7.jpg" alt="service-image">
+						<img src="./img/flash1.jpg" alt="service-image">
 						<div class="inner-padd">
-							<h4>El comercio global de Brasil alcanzó los 120.000 millones de dólares hasta marzo del 2019</h4>
+							<h4>El comercio bilateral Venezuela - Brasil alcanzó los 136 millones de dólares hasta marzo
+								de 2019</h4>
 						</div>
 					</div>
 				</div>
-	
+
 				<div class="col-md-4 col-sm-4 col-xs-12">
 					<div class="service-grid">
-						<img src="./img/flash8.jpg" alt="service-image">
+						<img src="./img/flash2.jpg" alt="service-image">
 						<div class="inner-padd">
-							<h4>El MERCOSUR es un nicho de mercado para Brasil de 20% de las exportaciones y América Latina es de 32.000 millones de dólares</h4>
+							<h4>El salario mínimo se encuentra en 18.000Bs, se espera un aumento para el 01 de mayo
+								según información extra-oficial</h4>
+
 						</div>
 					</div>
 				</div>
-	
+
 				<div class="col-md-4 col-sm-4 col-xs-12">
 					<div class="service-grid">
-						<img src="./img/flash9.jpg" alt="service-image">
+						<img src="./img/flash3.jpg" alt="service-image">
 						<div class="inner-padd">
-							<h4>La moneda Real Brasileño alcanzó 3,96R/$</h4>
+							<h4>El dólar DICOM alcanzó los bolívares 4275 en la última subasta</h4>
+
 						</div>
 					</div>
-				</div>	
+				</div>
 				<div class="row">
 					<div class="col-md-4 col-sm-4 col-xs-12">
 						<div class="service-grid">
-							<img src="./img/flash10.jpg" alt="service-image">
+							<img src="./img/flash4.jpg" alt="service-image">
 							<div class="inner-padd">
-								<h4>MDIC propone cadenas productivas con Suramérica</h4>
+								<h4>Entra la ayuda humanitaria por medio de la Organización Cruz roja: Medicamentos y
+									alimentos</h4>
+
 							</div>
 						</div>
 					</div>
-		
-					<div class="col-md-4 col-sm-4 col-xs-12">
-						<div class="service-grid">
-							<img src="./img/flash11.jpg" alt="service-image">
-							<div class="inner-padd">
-								<h4>Brasil intensifica comercio con EE.UU y China, deberá alcanzar aproximadamente los 120.000 millones de dólares</h4>
-							</div>
+
+				</div>
+				<!-- Services END -->
+
+
+
+				<!-- Services START -->
+				<div class="section-block-grey">
+					<div class="container">
+						<div class="section-heading center-holder">
+							<h2>Flashes con Brasil</h2>
+
 						</div>
-					</div>
-		
-					<div class="col-md-4 col-sm-4 col-xs-12">
-						<div class="service-grid">
-							<img src="./img/flash12.jpg" alt="service-image">
-							<div class="inner-padd">
-								<h4>Brasil busca entrar en la OCDE y amenaza salir de la OMC.</h4>
-							</div>										
-			</div>
-		</div>
-	</div>
-	<!-- Services END -->
-	
-	
-	
-
-<!-- About section START -->
-<div class="section-block">
-	<div class="container">
-			<div class="section-heading center-holder">
-					<h2>Oferta y demanda de productos y servicios</h2>
-				</div>	
-		<div class="row">
-				<div class="col-md-3 col-sm-6 col-xs-12 col-md-offset-1">
-						<div class="text-content mt-30">
-					<h2>Venezuela</h2>
-					<p>1)Pedidos de produtos brasileiros: Alimentos en general(en especial) arroz, azúcar, aceite de soya, mesclas y pastas, preparados para elaboración de bebidas, Harinas de trigo, carnes de pollos, margarinas, aceites lubricantes, cauchos etc.               2)Ofertas: metanol, alambres de aluminio, envases, radiadores, artículos inflamables de cauchos, negro de carbón, construcciones prefabricadas etc</p>					
-				</div>			
-			</div>
-			<div class="col-md-4 col-sm-6 col-xs-12 col-md-offset-1">
-				<img src="./img/ofertaydemanda.jpg" class="border-round img-shadow" alt="about-img">
-			</div>
-			<div class="col-md-3 col-sm-6 col-xs-12 col-md-offset-1">
-				<div class="text-content mt-30">
-						<h2>Brasil</h2>
-					<p>1)Pedidos: fertilizantes, envases, lubricantes, naftas, coque, sulfato de magnesio, cemento, techos y pisos de la construcciones, estruturas metálicas, alumínio reciclado, vidrio flotado, envases de aluminio y plasticos. Produtos metal mecánicos, fundiciones, filtros, bolsas plásticas. etc.     2) Ofertas brasileñas : Alimentos en general, artículos de limpieza, de higiene personal. Neumáticos, baterías y respuestas en general, Generadores eléctricos y fabrica de fábricas. Bombas centrífugas. etc.</p>
-					<a href="#" class="button-primary mt-30">Descargar informe completo</a>
-				</div>	
-			</div>				
-		</div>
-	</div>	
-</div>
-<!-- About section END -->
-
-
-
-
-<!-- Team Members START -->
-<div class="section-block">
-	<div class="container">
-		<div class="section-heading center-holder">
-			<h2>Asociados a la cámara</h2>
-			<p>Estas son las empresas asociadas a la Cámara hasta la fecha. Los cuadros incluyen un enlace al Sitio Web de la empresa.</p>
-		</div>
-		<div class="row">
-			<div class="col-md-3 col-sm-6 col-xs-12">
-				<div class="team-member">
-					<div class="team-member-image">
-						<img src="./img/portelayasociados.jpg" alt="member">
-						<div class="team-member-overlay">
-							<div class="team-member-content">						
-								<a href="#"><i class="fa fa-facebook-official"></i></a>
-								<a href="#"><i class="fa fa-twitter"></i></a>
-								<a href="#"><i class="fa fa-instagram"></i></a>
+						<div class="row">
+							<div class="col-md-4 col-sm-4 col-xs-12">
+								<div class="service-grid">
+									<img src="./img/flash7.jpg" alt="service-image">
+									<div class="inner-padd">
+										<h4>El comercio global de Brasil alcanzó los 120.000 millones de dólares hasta
+											marzo del 2019</h4>
+									</div>
+								</div>
 							</div>
-						</div>				
-					</div>
-					<div class="team-member-name">
-						<h4>Portela y Asociados</h4>	
-						<h6>Asesoría Internacional, Marketing y posicionamiento de mercado</h6>
-					</div>						
-				</div>				
-			</div>
 
-			<div class="col-md-3 col-sm-6 col-xs-12">
-				<div class="team-member">
-					<div class="team-member-image">
-						<img src="./img/abogados.jpg" alt="member">
-						<div class="team-member-overlay">
-						
-						</div>				
-					</div>
-					<div class="team-member-name">
-						<h4>Bufetes de Abogados</h4>	
-						<h6>Asociados a la cámara</h6>
-					</div>						
-				</div>				
-			</div>			
-
-			<div class="col-md-3 col-sm-6 col-xs-12">
-				<div class="team-member">
-					<div class="team-member-image">
-						<img src="./img/auditores.jpg" alt="member">
-						<div class="team-member-overlay">
-					
-						</div>				
-					</div>
-					<div class="team-member-name">
-						<h4>Auditores y Contadores</h4>	
-						<h6>ASOCIADOS A LA CÁMARA</h6>
-					</div>						
-				</div>				
-			</div>
-
-			<div class="col-md-3 col-sm-6 col-xs-12">
-				<div class="team-member">
-					<div class="team-member-image">
-						<img src="./img/transporte.jpg" alt="member">
-						<div class="team-member-overlay">
-						
-						</div>				
-					</div>
-					<div class="team-member-name">
-						<h4>Transporte y Logística</h4>	
-						<h6>ASOCIADOS A LA CÁMARA</h6>
-					</div>						
-				</div>				
-			</div>							
-		</div>	
-	</div>		
-</div>
-<!-- Team Members END -->
-
-
-
-
-<!-- Testmonials START -->
-<div class="section-block-parallax" style="background-image: url(./img/testimoniosback.jpg);">
-	<div class="container">
-		<div class="section-heading white-color center-holder">
-			<h2>Testimoniales</h2>			
-		</div>		
-		<div class="owl-carousel owl-theme" id="testmonials">
-			<div class="testmonial-block clearfix">
-				<div class="testmonial-img">
-					<img src="./img/test1.png" alt="testmonial-img">
-				</div>
-				<div class="testmonial-text">
-					<div class="ml-15">
-						<span>Director en Hernandez Aular y Asociados, abogados consultores</span>				
-						<strong>Angel Ramon Hernandez</strong>	
-						<p>Una gran oportunidad de conocer la industria y el comercio en Brasil sobre todo en la region amazónica que es nuestra frontera común y el ingreso de Venezuela.</p>	
-					</div>	
-				</div>								
-			</div>
-	
-		</div>
-	</div>
-</div>
-<!-- Testmonials END -->
-
-
-
-
-
-<!-- Partners Section START -->
-<div class="partner-section">
-	<div class="container">	
-        <div class="owl-carousel owl-theme partners" id="our-partners">
-            <div class="item"><a href="https://www.melia.com/es/hoteles/venezuela/caracas/gran-melia-caracas/index.htm">
-            	<img src="./img/granmeliacaracas.png" alt="partner-image">     </a> 
-            </div>	
-
-            <div class="item"><a href="https://www.aviorair.com/">
-            	<img src="./img/avior.png" alt="partner-image"></a>      
-            </div>
-
-            <div class="item"><a href="https://www.coposa.com/">
-            	<img src="./img/coposa.png" alt="partner-image">      </a>
-            </div>
-
-						<div class="item"><a href="https://www.pequiven.com/">
-            	<img src="./img/pequiven.png" alt="partner-image">      </a>
-            </div>
-     
-        </div>  		     	
-	</div>
-</div>
-<!-- Partners Section END -->
-
-
-
-<!-- Footer START -->
-<footer>
-	<div class="footer">
-		<div class="container">
-			<div class="row">
-				<!-- Col 1 Start -->
-				<div class="col-md-3 col-sm-12 col-xs-12">
-					<div class="footer-column-1">
-						<img src="img/logos/logo-2.png" alt="footer-logo">
-						<div class="text-content mt-25">
-
-							<div class="white-color mt-20">								
-								<p><i class="fa fa-envelope-o"></i> E-mail: contacto@cavenbra.com</p>
-								<p><i class="fa fa-phone"></i> Teléfono: +58-212-7932355</p>
-								<p><i class="fa fa-clock-o"></i> Horario de atención: Lunes a Viernes : 12:00pm-4:00pm</p>
-									
+							<div class="col-md-4 col-sm-4 col-xs-12">
+								<div class="service-grid">
+									<img src="./img/flash8.jpg" alt="service-image">
+									<div class="inner-padd">
+										<h4>El MERCOSUR es un nicho de mercado para Brasil de 20% de las exportaciones y
+											América Latina es de 32.000 millones de dólares</h4>
+									</div>
+								</div>
 							</div>
-						</div>						
-					</div>
-				</div>
-				<!-- Col 1 End -->
+
+							<div class="col-md-4 col-sm-4 col-xs-12">
+								<div class="service-grid">
+									<img src="./img/flash9.jpg" alt="service-image">
+									<div class="inner-padd">
+										<h4>La moneda Real Brasileño alcanzó 3,96R/$</h4>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-4 col-sm-4 col-xs-12">
+									<div class="service-grid">
+										<img src="./img/flash10.jpg" alt="service-image">
+										<div class="inner-padd">
+											<h4>MDIC propone cadenas productivas con Suramérica</h4>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-md-4 col-sm-4 col-xs-12">
+									<div class="service-grid">
+										<img src="./img/flash11.jpg" alt="service-image">
+										<div class="inner-padd">
+											<h4>Brasil intensifica comercio con EE.UU y China, deberá alcanzar
+												aproximadamente los 120.000 millones de dólares</h4>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-md-4 col-sm-4 col-xs-12">
+									<div class="service-grid">
+										<img src="./img/flash12.jpg" alt="service-image">
+										<div class="inner-padd">
+											<h4>Brasil busca entrar en la OCDE y amenaza salir de la OMC.</h4>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- Services END -->
 
 
-			</div>
-		</div>		
-	</div>
-	<div class="bottom-bar">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6 col-sm-6 col-xs-12">
-					<div class="bottom-icons white-color">
-						<a href="https://www.facebook.com/cavenbraoficial/"><i class="fa fa-facebook"></i></a>
-						<a href="https://twitter.com/cavenbra"><i class="fa fa-twitter"></i></a>
-						<a href="https://instagram.com/cavenbra"><i class="fa fa-instagram"></i></a>
-							
-					</div>		
-				</div>
-				<div class="col-md-6 col-sm-6 col-xs-12">
-					<div class="grey-color right-holder mt-10">
-						<p>© Copyright 2019 CAVENBRA. Todos los derechos reservados.</p>
-					</div>
-				</div>				
-			</div>
-		</div>
-	</div>
-</footer>
-<!-- Footer END -->
+
+
+							<!-- About section START -->
+							<div class="section-block">
+								<div class="container">
+									<div class="section-heading center-holder">
+										<h2>Oferta y demanda de productos y servicios</h2>
+									</div>
+									<div class="row">
+										<div class="col-md-3 col-sm-6 col-xs-12 col-md-offset-1">
+											<div class="text-content mt-30">
+												<h2>Venezuela</h2>
+												<p>1)Pedidos de produtos brasileiros: Alimentos en general(en especial)
+													arroz, azúcar, aceite de soya, mesclas y pastas, preparados para
+													elaboración de bebidas, Harinas de trigo, carnes de pollos,
+													margarinas, aceites lubricantes, cauchos etc. 2)Ofertas: metanol,
+													alambres de aluminio, envases, radiadores, artículos inflamables de
+													cauchos, negro de carbón, construcciones prefabricadas etc</p>
+											</div>
+										</div>
+										<div class="col-md-4 col-sm-6 col-xs-12 col-md-offset-1">
+											<img src="./img/ofertaydemanda.jpg" class="border-round img-shadow"
+												alt="about-img">
+										</div>
+										<div class="col-md-3 col-sm-6 col-xs-12 col-md-offset-1">
+											<div class="text-content mt-30">
+												<h2>Brasil</h2>
+												<p>1)Pedidos: fertilizantes, envases, lubricantes, naftas, coque,
+													sulfato de magnesio, cemento, techos y pisos de la construcciones,
+													estruturas metálicas, alumínio reciclado, vidrio flotado, envases de
+													aluminio y plasticos. Produtos metal mecánicos, fundiciones,
+													filtros, bolsas plásticas. etc. 2) Ofertas brasileñas : Alimentos en
+													general, artículos de limpieza, de higiene personal. Neumáticos,
+													baterías y respuestas en general, Generadores eléctricos y fabrica
+													de fábricas. Bombas centrífugas. etc.</p>
+												<a href="#" class="button-primary mt-30">Descargar informe completo</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- About section END -->
 
 
 
-<!-- Scroll to top button Start -->
-<a href="#" class="scroll-to-top"><i class="fa fa-angle-up" aria-hidden="true"></i></a>	
-<!-- Scroll to top button End -->
+
+							<!-- Team Members START -->
+							<div class="section-block">
+								<div class="container">
+									<div class="section-heading center-holder">
+										<h2>Asociados a la cámara</h2>
+										<p>Estas son las empresas asociadas a la Cámara hasta la fecha. Los cuadros
+											incluyen un enlace al Sitio Web de la empresa.</p>
+									</div>
+									<div class="row">
+										<div class="col-md-3 col-sm-6 col-xs-12">
+											<div class="team-member">
+												<div class="team-member-image">
+													<img src="./img/portelayasociados.jpg" alt="member">
+													<div class="team-member-overlay">
+														<div class="team-member-content">
+															<a href="#"><i class="fa fa-facebook-official"></i></a>
+															<a href="#"><i class="fa fa-twitter"></i></a>
+															<a href="#"><i class="fa fa-instagram"></i></a>
+														</div>
+													</div>
+												</div>
+												<div class="team-member-name">
+													<h4>Portela y Asociados</h4>
+													<h6>Asesoría Internacional, Marketing y posicionamiento de mercado
+													</h6>
+												</div>
+											</div>
+										</div>
+
+										<div class="col-md-3 col-sm-6 col-xs-12">
+											<div class="team-member">
+												<div class="team-member-image">
+													<img src="./img/abogados.jpg" alt="member">
+													<div class="team-member-overlay">
+
+													</div>
+												</div>
+												<div class="team-member-name">
+													<h4>Bufetes de Abogados</h4>
+													<h6>Asociados a la cámara</h6>
+												</div>
+											</div>
+										</div>
+
+										<div class="col-md-3 col-sm-6 col-xs-12">
+											<div class="team-member">
+												<div class="team-member-image">
+													<img src="./img/auditores.jpg" alt="member">
+													<div class="team-member-overlay">
+
+													</div>
+												</div>
+												<div class="team-member-name">
+													<h4>Auditores y Contadores</h4>
+													<h6>ASOCIADOS A LA CÁMARA</h6>
+												</div>
+											</div>
+										</div>
+
+										<div class="col-md-3 col-sm-6 col-xs-12">
+											<div class="team-member">
+												<div class="team-member-image">
+													<img src="./img/transporte.jpg" alt="member">
+													<div class="team-member-overlay">
+
+													</div>
+												</div>
+												<div class="team-member-name">
+													<h4>Transporte y Logística</h4>
+													<h6>ASOCIADOS A LA CÁMARA</h6>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- Team Members END -->
 
 
 
 
-<!-- Jquery -->
-<script src="js/jquery.min.js"></script>
+							<!-- Testmonials START -->
+							<div class="section-block-parallax"
+								style="background-image: url(./img/testimoniosback.jpg);">
+								<div class="container">
+									<div class="section-heading white-color center-holder">
+										<h2>Testimoniales</h2>
+									</div>
+									<div class="owl-carousel owl-theme" id="testmonials">
+										<div class="testmonial-block clearfix">
+											<div class="testmonial-img">
+												<img src="./img/test1.png" alt="testmonial-img">
+											</div>
+											<div class="testmonial-text">
+												<div class="ml-15">
+													<span>Director en Hernandez Aular y Asociados, abogados
+														consultores</span>
+													<strong>Angel Ramon Hernandez</strong>
+													<p>Una gran oportunidad de conocer la industria y el comercio en
+														Brasil sobre todo en la region amazónica que es nuestra frontera
+														común y el ingreso de Venezuela.</p>
+												</div>
+											</div>
+										</div>
 
-<!-- Bootstrap JS-->
-<script src="js/bootstrap.min.js" type="text/javascript"></script>	
+									</div>
+								</div>
+							</div>
+							<!-- Testmonials END -->
 
-<!-- Pogo Slider -->
-<script src="js/jquery.pogo-slider.min.js"></script>
-<script src="js/pogo-main.js"></script>
 
-<!-- Owl Carousel-->
-<script src="js/owl.carousel.js"></script>
 
-<!-- Wow JS -->
-<script type="text/javascript" src="js/wow.min.js"></script>
 
-<!-- Countup -->
-<script src="js/jquery.counterup.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
 
-<!-- Isotop -->
-<script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
+							<!-- Partners Section START -->
+							<div class="partner-section">
+								<div class="container">
+									<div class="owl-carousel owl-theme partners" id="our-partners">
+										<div class="item"><a
+												href="https://www.melia.com/es/hoteles/venezuela/caracas/gran-melia-caracas/index.htm">
+												<img src="./img/granmeliacaracas.png" alt="partner-image"> </a>
+										</div>
 
-<!-- Tabs -->
-<script type="text/javascript" src="js/tabs.min.js"></script>
+										<div class="item"><a href="https://www.aviorair.com/">
+												<img src="./img/avior.png" alt="partner-image"></a>
+										</div>
 
-<!-- Modernizr -->
-<script src="js/modernizr.js"></script>
+										<div class="item"><a href="https://www.coposa.com/">
+												<img src="./img/coposa.png" alt="partner-image"> </a>
+										</div>
 
-<!-- Main JS -->
-<script src="js/main.js"></script>
+										<div class="item"><a href="https://www.pequiven.com/">
+												<img src="./img/pequiven.png" alt="partner-image"> </a>
+										</div>
+
+									</div>
+								</div>
+							</div>
+							<!-- Partners Section END -->
+
+
+
+							<!-- Footer START -->
+							<footer>
+								<div class="footer">
+									<div class="container">
+										<div class="row">
+											<!-- Col 1 Start -->
+											<div class="col-md-3 col-sm-12 col-xs-12">
+												<div class="footer-column-1">
+													<img src="img/logos/logo-2.png" alt="footer-logo">
+													<div class="text-content mt-25">
+
+														<div class="white-color mt-20">
+															<p><i class="fa fa-envelope-o"></i> E-mail:
+																contacto@cavenbra.com</p>
+															<p><i class="fa fa-phone"></i> Teléfono: +58-212-7932355</p>
+															<p><i class="fa fa-clock-o"></i> Horario de atención: Lunes
+																a Viernes : 12:00pm-4:00pm</p>
+
+														</div>
+													</div>
+												</div>
+											</div>
+											<!-- Col 1 End -->
+
+
+										</div>
+									</div>
+								</div>
+								<div class="bottom-bar">
+									<div class="container">
+										<div class="row">
+											<div class="col-md-6 col-sm-6 col-xs-12">
+												<div class="bottom-icons white-color">
+													<a href="https://www.facebook.com/cavenbraoficial/"><i
+															class="fa fa-facebook"></i></a>
+													<a href="https://twitter.com/cavenbra"><i
+															class="fa fa-twitter"></i></a>
+													<a href="https://instagram.com/cavenbra"><i
+															class="fa fa-instagram"></i></a>
+
+												</div>
+											</div>
+											<div class="col-md-6 col-sm-6 col-xs-12">
+												<div class="grey-color right-holder mt-10">
+													<p>© Copyright 2019 CAVENBRA. Todos los derechos reservados.</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</footer>
+							<!-- Footer END -->
+
+
+
+							<!-- Scroll to top button Start -->
+							<a href="#" class="scroll-to-top"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+							<!-- Scroll to top button End -->
+
+
+
+
+							<!-- Jquery -->
+							<script src="js/jquery.min.js"></script>
+
+							<!-- Bootstrap JS-->
+							<script src="js/bootstrap.min.js" type="text/javascript"></script>
+
+							<!-- Pogo Slider -->
+							<script src="js/jquery.pogo-slider.min.js"></script>
+							<script src="js/pogo-main.js"></script>
+
+							<!-- Owl Carousel-->
+							<script src="js/owl.carousel.js"></script>
+
+							<!-- Wow JS -->
+							<script type="text/javascript" src="js/wow.min.js"></script>
+
+							<!-- Countup -->
+							<script src="js/jquery.counterup.min.js"></script>
+							<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js">
+							</script>
+
+							<!-- Isotop -->
+							<script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
+
+							<!-- Tabs -->
+							<script type="text/javascript" src="js/tabs.min.js"></script>
+
+							<!-- Modernizr -->
+							<script src="js/modernizr.js"></script>
+
+							<!-- Main JS -->
+							<script src="js/main.js"></script>
 
 </body>
+
 </html>
